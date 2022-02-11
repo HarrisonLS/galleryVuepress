@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+
 
 # 确保脚本抛出遇到的错误
 set -e
@@ -14,11 +14,11 @@ cd docs/.vuepress/dist
 
 git init
 git add -A
-git commit -m 'deploy'
+git commit -m 'test_deploy'
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
 # git push origin 本地分支:远端希望创建的分支
-git push -f git@github.com:HarrisonLS/gallery_vuepress.git main:gh-pages
+git push -f git@github.com:HarrisonLS/gallery_vuepress.git master:gh-pages
 
-cd -
+cd ../../../
