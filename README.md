@@ -1,1 +1,5 @@
 # hello world!
+
+---
+home:true
+---
