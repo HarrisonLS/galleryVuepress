@@ -21,4 +21,4 @@ git commit -m 'deploy'
 # git push origin 本地分支:远端希望创建的分支
 git push -f git@github.com:HarrisonLS/gallery_vuepress.git master:gh-pages
 
-cd ../../../
+cd -

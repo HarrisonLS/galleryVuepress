@@ -5,9 +5,9 @@ module.exports = {
   description: "harrison的个人网站", // 会以meta标签渲染到当前页面的HTML中
   head: [
     // 注入到当前页面的 HTML <head> 中的标签
-    ["link", { rel: "icon", href: "/logo.jpg" }], // 增加一个自定义的 favicon(网页标签的图标)
+    // ["link", { rel: "icon", href: "/logo.jpg" }], // 增加一个自定义的 favicon(网页标签的图标)
   ],
-  base: ".", // 这是部署到github相关的配置
+  base: '/blog/', // 这是部署到github相关的配置
   // host
   // port:8080,
   // dest  // 制定vuepress build的输出目录
